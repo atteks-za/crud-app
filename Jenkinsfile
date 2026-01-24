@@ -19,7 +19,7 @@ pipeline {
                 withSonarQubeEnv('SonarCloud') {
                     sh '''$SCANNER_HOME/bin/sonar-scanner \
   -Dsonar.organization=jenkinsproject \
-  -Dsonar.projectKey=jenkinsproject_ci-jenkins' \
+  -Dsonar.projectKey=jenkinsproject_ci-jenkins \
   -Dsonar.sources=. \
   -Dsonar.host.url=https://sonarcloud.io '''
                 }
