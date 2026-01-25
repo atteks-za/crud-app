@@ -13,7 +13,7 @@ const port = 3000;
 const db = mysql.createConnection({
     host: 'project1-db.cbiocw2868mr.eu-west-1.rds.amazonaws.com',
     user: 'root',
-    password: 'Lizo123$',
+    password: '12345',
     database: 'project1-db'
 });
 
