@@ -1,8 +1,4 @@
 
-
-
-# DevOps Mentor Task
-
 ## Presentation Video
 
 https://github.com/user-attachments/assets/cc52304e-0107-46f6-96e3-c20b7738408b
